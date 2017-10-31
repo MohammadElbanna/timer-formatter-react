@@ -3,7 +3,6 @@ import TIMER_STATE from "../constants/stopwatch";
 import TimeFormatter from "./TimeFormatter";
 import PastLapsDisplayer from "./PastLapsDisplayer";
 import Controls from "./Controls";
-import styles from "./Stopwatch.css";
 
 class Stopwatch extends Component {
   state = {
