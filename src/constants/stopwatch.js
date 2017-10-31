@@ -1,0 +1,7 @@
+const TIMER_STATE = {
+  INITIAL: "INITIAL",
+  RUNNING: "RUNNING",
+  PAUSED: "PAUSED"
+};
+
+export default TIMER_STATE;
