@@ -42,10 +42,10 @@ class Stopwatch extends Component {
       lapTime: lapTime,
       totalTime: totalTime
     };
-    this.setState({
-      pastLaps: [...this.state.pastLaps, newLap],
+    this.setState(prevState => ({
+      pastLaps: [...prevState.pastLaps, newLap],
       lapTime: 0
-    });
+    }));
   };
 
   onReset = () => {
